@@ -1,0 +1,20 @@
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>site</title><script>let mj;
+if(window.location.hash === '#nocolor') {
+    mj = 'mathjax-config-bw.js?v=25';
+} else {
+    mj = 'mathjax-config.js?v=25';
+
+    (function() {
+        const link = document.createElement('link');
+        link.href = 'colors.css';
+        link.rel = 'stylesheet';
+        document.head.appendChild(link);
+    })();
+}
+
+(function() {
+    const script = document.createElement('script');
+    script.src = mj;
+    script.async = true;
+    document.head.appendChild(script);
+})();</script><script src="AllExampleV2.js?v=4"></script><link rel="stylesheet" href="style.css?v=14"><script defer="defer" src="js/chunk-vendors.9a82c823.js?v=3"></script><script defer="defer" src="js/app.8f99bd07.js"></script><link href="css/app.deb6ecdc.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but site doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
